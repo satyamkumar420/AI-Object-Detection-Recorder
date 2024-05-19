@@ -7,9 +7,12 @@ import { Toaster } from "@/components/ui/sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI Recorder",
+  title: "AI Object Detection Recorder",
   description:
     "AI Recorder - Record your screen or any object's movement automatically with just one click. No more boring video editing.",
+  icons: {
+    icon: "/favicon.jpg",
+  },
 };
 
 export default function RootLayout({
