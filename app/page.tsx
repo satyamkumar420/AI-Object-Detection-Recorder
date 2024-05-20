@@ -364,7 +364,6 @@ const HomePage = (props: Props) => {
               <span style={{ color: "#00B612" }}>green</span>.
             </p>
           </li>
-          <Separator />
         </ul>
       </div>
     );
