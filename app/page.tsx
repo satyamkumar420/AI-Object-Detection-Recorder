@@ -117,6 +117,7 @@ const HomePage = (props: Props) => {
     }, 100);
 
     return () => clearInterval(interval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [webcamRef.current, model, mirrored, autoRecordEnabled]);
 
   return (
