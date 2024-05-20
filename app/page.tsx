@@ -273,7 +273,7 @@ const HomePage = (props: Props) => {
 
   function RenderFeatureHighlightsSection() {
     return (
-      <div className="text-xs text-muted-foreground">
+      <div className="text-xs">
         <ul className="space-y-4">
           <li>
             <strong>Dark Mode/Sys Theme 🌗</strong>
