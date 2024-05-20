@@ -276,7 +276,7 @@ const HomePage = (props: Props) => {
       <div className="text-xs">
         <ul className="space-y-4">
           <li>
-            <strong>Dark Mode/Sys Theme 🌗</strong>
+            <strong className="text-lg">Dark Mode/Sys Theme 🌗</strong>
             <p>Toggle between dark mode and system theme.</p>
             <Button className="my-2 h-6 w-6" variant={"outline"} size={"icon"}>
               <SunIcon size={14} />
@@ -287,7 +287,7 @@ const HomePage = (props: Props) => {
             </Button>
           </li>
           <li>
-            <strong>Horizontal Flip ↔️</strong>
+            <strong className="text-lg">Horizontal Flip 🔄</strong>
             <p>Adjust horizontal orientation.</p>
             <Button
               className="h-6 w-6 my-2"
@@ -302,7 +302,7 @@ const HomePage = (props: Props) => {
           </li>
           <Separator />
           <li>
-            <strong>Take Pictures 📸</strong>
+            <strong className="text-lg">Take Pictures 📸</strong>
             <p>Capture snapshots at any moment from the video feed.</p>
             <Button
               className="h-6 w-6 my-2"
@@ -314,7 +314,7 @@ const HomePage = (props: Props) => {
             </Button>
           </li>
           <li>
-            <strong>Manual Video Recording 📽️</strong>
+            <strong className="text-lg">Manual Video Recording 📽️</strong>
             <p>Manually record video clips as needed.</p>
             <Button
               className="h-6 w-6 my-2"
@@ -327,7 +327,7 @@ const HomePage = (props: Props) => {
           </li>
           <Separator />
           <li>
-            <strong>Enable/Disable Auto Record 🚫</strong>
+            <strong className="text-lg">Enable/Disable Auto Record 🚫</strong>
             <p>
               Option to enable/disable automatic video recording whenever
               required.
@@ -347,11 +347,11 @@ const HomePage = (props: Props) => {
           </li>
 
           <li>
-            <strong>Volume Slider 🔊</strong>
+            <strong className="text-lg">Volume Slider 🔊</strong>
             <p>Adjust the volume level of the notifications.</p>
           </li>
           <li>
-            <strong>Camera Feed Highlighting 🎨</strong>
+            <strong className="text-lg">Camera Feed Highlighting 🎨</strong>
             <p>
               Highlights persons in{" "}
               <span style={{ color: "#FF0F0F" }}>red</span> and other objects in{" "}
@@ -359,12 +359,10 @@ const HomePage = (props: Props) => {
             </p>
           </li>
           <Separator />
-          <li className="space-y-4">
-            <strong>Share your thoughts 💬 </strong>
-            <br />
-            <br />
-            <br />
-          </li>
+          {/* <li className="space-y-4">
+            <strong className="text-lg">Share your thoughts 💬 </strong>
+          
+          </li> */}
         </ul>
       </div>
     );
